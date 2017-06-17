@@ -3,39 +3,25 @@ var done = false;
 
 
 $(window).scroll(function() {
-    if ($(window).scrollTop() > 600 && $(window).width() > 980 && done == false) {
-        done = true;
-        $(".nawigacja").css('position', 'fixed');
+    
+
+    if ($(window).scrollTop() > 80 && $(window).scrollTop() < 599) {
         $(".nawigacja").fadeOut(0);
-        $(".nawigacja").fadeIn(500);
-       
-    } else if ($(this).scrollTop() < 600 && done == true) {
-        done = false;
-        $(".nawigacja").fadeOut(500,
-            function() {
-                $(".nawigacja").fadeIn(500);
-                $(".nawigacja").css('position', 'relative');
-            }
-        );
-
-        i
-
-  
-
-
-
-
-
-    }
-    // else if($(this).scrollTop() == 0){
-    //       $(".nawigacja").fadeOut(0,
-    //         function() {
-    //             $(".nawigacja").fadeIn(0);
-    //             $(".nawigacja").css('position', 'relative');
-    //         }
-    //     );
+       console.log("hi");
+    } 
+    else if ($(window).scrollTop() < 80 ) {
         
-    // }
+        $(".nawigacja").fadeIn(500);
+        $(".nawigacja").css('position', 'static')
+       
+        
+    }
+    else if ($(window).scrollTop() > 600 ) {
+        
+        $(".nawigacja").fadeIn(500);
+        $(".nawigacja").css('position','fixed');
+        
+    }
 });
 
 
