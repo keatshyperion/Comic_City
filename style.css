@@ -39,7 +39,7 @@ width:100%;
   transition: 350ms;
 }
 .nav-link:hover{
-
+  color:#0282f9 !important;
   background-color:#223A5E;
 
 }
@@ -98,7 +98,7 @@ background:#0282f9;
   height:400px;
 }
 .blog{
-  width:100%;
+  width:90%;
 }
 .blog--Item{
   height:200px;
@@ -111,6 +111,11 @@ background:#0282f9;
   overflow:hidden;
   position:relative;
   cursor:pointer;
+}
+@media(max-width:980px){
+ .blog--Item{
+   margin-bottom: 20px;
+ }
 }
 .child p{
   font-family: 'Montserrat', sans-serif;
@@ -128,6 +133,7 @@ background:#0282f9;
   font-weight: 700;
   color:#0282f9;
   font-size:52px;
+  margin-bottom: 20px;
 
 }
 .read--More{
@@ -677,6 +683,12 @@ color:#0282f9;
   height:600px;
   justify-content: center;
   position: relative;
+  margin-top:-50px;
+}
+@media(max-width:980px){
+  .we{
+    margin-top:80px;
+  }
 }
 .weTitle{
   background-color: #424242;
@@ -722,4 +734,7 @@ transition:350ms;
 }
 .bucky:hover{
   transform: scale(1.1)
+}
+button:focus{
+    outline: none;   
 }
