@@ -7,7 +7,7 @@ var done = false;
 $(window).scroll(function() {
 
   if ($(window).scrollTop() > 80 && $(window).scrollTop() < 599) {
-         $(".nawigacja").fadeOut(0);
+         $(".nawigacja").fadeOut(500);
      console.log("hi");
     } 
     else if ($(window).scrollTop() < 80 ) {
