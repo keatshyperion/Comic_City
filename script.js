@@ -26,7 +26,7 @@ $(window).scroll(function() {
    }
  });
 
-
+//lel
 var get_navbar_collapse = document.getElementsByClassName('navbar-collapse');
 
 window.addEventListener('resize',function(){
