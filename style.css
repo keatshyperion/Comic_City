@@ -32,16 +32,15 @@ width:100%;
 }
 .nav-link{
   color:white !important;
-  font-family:"Raleway";
-  text-transform:lowercase;
-  font-weight:500;
-  font-size:17px;
-
-
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:15px;
+  transition: 350ms;
 }
 .nav-link:hover{
-
-  text-decoration:underline;
+  color:#0282f9 !important;
+  background-color:#223A5E;
 
 }
 .navbar-collapse{
@@ -65,12 +64,12 @@ margin-left:auto;
   }
   .nav-link{
     font-size:2.0rem;
-    text-transform:lowercase;
-    font-family:'Raleway';
+    text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
 
   }
   .nav-item:hover {
-    color:red !important;
+    color:#0282f9 !important;
   }
   .nav-item{
     text-align:center;
@@ -78,7 +77,7 @@ margin-left:auto;
 }
 
 .navbar{
-background:#223A5E;
+background:#0282f9;
 /*background:#6256CD;*/
 }
 
@@ -99,7 +98,7 @@ background:#223A5E;
   height:400px;
 }
 .blog{
-  width:100%;
+  width:90%;
 }
 .blog--Item{
   height:200px;
@@ -112,6 +111,11 @@ background:#223A5E;
   overflow:hidden;
   position:relative;
   cursor:pointer;
+}
+@media(max-width:980px){
+ .blog--Item{
+   margin-bottom: 20px;
+ }
 }
 .child p{
   font-family: 'Montserrat', sans-serif;
@@ -129,6 +133,7 @@ background:#223A5E;
   font-weight: 700;
   color:#0282f9;
   font-size:52px;
+  margin-bottom: 20px;
 
 }
 .read--More{
@@ -678,6 +683,12 @@ color:#0282f9;
   height:600px;
   justify-content: center;
   position: relative;
+  margin-top:-50px;
+}
+@media(max-width:980px){
+  .we{
+    margin-top:80px;
+  }
 }
 .weTitle{
   background-color: #424242;
@@ -723,4 +734,7 @@ transition:350ms;
 }
 .bucky:hover{
   transform: scale(1.1)
+}
+button:focus{
+    outline: none;   
 }

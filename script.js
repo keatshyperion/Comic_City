@@ -14,7 +14,27 @@ $(window).scroll(function() {
         $(".nawigacja").fadeIn(500);
         $(".nawigacja").css('position', 'static')
        
+<<<<<<< HEAD
         
+=======
+    } else if ($(this).scrollTop() < 600 && done == true) {
+        done = false;
+        $(".nawigacja").fadeOut(500,
+            function() {
+                $(".nawigacja").fadeIn(500);
+                $(".nawigacja").css('position', 'relative');
+            }
+        );
+
+        
+
+  
+
+
+
+
+
+>>>>>>> master
     }
     else if ($(window).scrollTop() > 600 ) {
         
