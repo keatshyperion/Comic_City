@@ -32,16 +32,15 @@ width:100%;
 }
 .nav-link{
   color:white !important;
-  font-family:"Raleway";
-  text-transform:lowercase;
-  font-weight:500;
-  font-size:17px;
-
-
+  font-family: 'Montserrat', sans-serif;
+  text-transform:uppercase;
+  font-weight:700;
+  font-size:15px;
+  transition: 350ms;
 }
 .nav-link:hover{
 
-  text-decoration:underline;
+  background-color:#223A5E;
 
 }
 .navbar-collapse{
@@ -65,12 +64,12 @@ margin-left:auto;
   }
   .nav-link{
     font-size:2.0rem;
-    text-transform:lowercase;
-    font-family:'Raleway';
+    text-transform:uppercase;
+    font-family: 'Montserrat', sans-serif;
 
   }
   .nav-item:hover {
-    color:red !important;
+    color:#0282f9 !important;
   }
   .nav-item{
     text-align:center;
@@ -78,7 +77,7 @@ margin-left:auto;
 }
 
 .navbar{
-background:#223A5E;
+background:#0282f9;
 /*background:#6256CD;*/
 }
 
