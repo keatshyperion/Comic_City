@@ -6,17 +6,17 @@ var done = false;
     
 $(window).scroll(function() {
 
-
   if ($(window).scrollTop() > 80 && $(window).scrollTop() < 599) {
-         $(".nawigacja").fadeOut(0);
+         $(".nawigacja").fadeOut(500);
      console.log("hi");
     } 
     else if ($(window).scrollTop() < 80 ) {
-+       
+    
         $(".nawigacja").fadeIn(500);
        $(".nawigacja").css('position', 'static')
         
    } 
+   //ss
     else if ($(window).scrollTop() > 600 ) {
          
    // }
@@ -24,6 +24,7 @@ $(window).scroll(function() {
        $(".nawigacja").css('position','fixed');
        
    }
+
  });
 
 //lel
