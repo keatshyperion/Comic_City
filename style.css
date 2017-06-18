@@ -88,9 +88,9 @@ background:#0282f9;
 /*icons*/
 
 
-.i:hover{
+i:hover{
 transform:scale(1.1);
-
+transition:500ms;
 }
 
 
