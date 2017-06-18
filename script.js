@@ -22,6 +22,7 @@ $(window).scroll(function() {
    // }
        $(".nawigacja").fadeIn(500);
        $(".nawigacja").css('position','fixed');
+       $(".nawigacja").css('left','0px');
        
    }
 
