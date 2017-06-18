@@ -749,7 +749,8 @@ clip-path: polygon(1% 24%, 29% 19%, 28% 79%, 1% 76%);
 transition:350ms;
 }
 .daredevil:hover{
-  transform: scale(1.1)
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .scarletwitch{
   -webkit-clip-path: polygon(30% 19%, 54% 16%, 59% 82%, 29% 78%);
@@ -757,7 +758,8 @@ clip-path: polygon(30% 19%, 54% 16%, 59% 82%, 29% 78%);
 transition:350ms;
 }
 .scarletwitch:hover{
-  transform: scale(1.1)
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .bucky{
   -webkit-clip-path: polygon(56% 15%, 98% 10%, 98% 86%, 61% 82%);
@@ -765,7 +767,8 @@ clip-path: polygon(56% 15%, 98% 10%, 98% 86%, 61% 82%);
 transition:350ms;
 }
 .bucky:hover{
-  transform: scale(1.1)
+  transform: scale(1.1);
+  cursor: pointer;
 }
 button:focus{
     outline: none;   
