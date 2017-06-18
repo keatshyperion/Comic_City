@@ -4,6 +4,9 @@ body{
   overflow-x:hidden;
   font-family: 'Quicksand', sans-serif;
 }
+*:focus {
+    outline: none;
+}
 /**{
   border:1px solid white;
 }*/
@@ -104,6 +107,7 @@ transition:500ms;
   margin:0px;
   padding:0px;
   overflow: hidden;
+  position:relative;
 
 }
 .overlay{
@@ -748,7 +752,8 @@ clip-path: polygon(1% 24%, 29% 19%, 28% 79%, 1% 76%);
 transition:350ms;
 }
 .daredevil:hover{
-  transform: scale(1.1)
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .scarletwitch{
   -webkit-clip-path: polygon(30% 19%, 54% 16%, 59% 82%, 29% 78%);
@@ -756,7 +761,8 @@ clip-path: polygon(30% 19%, 54% 16%, 59% 82%, 29% 78%);
 transition:350ms;
 }
 .scarletwitch:hover{
-  transform: scale(1.1)
+  transform: scale(1.1);
+  cursor: pointer;
 }
 .bucky{
   -webkit-clip-path: polygon(56% 15%, 98% 10%, 98% 86%, 61% 82%);
@@ -764,7 +770,8 @@ clip-path: polygon(56% 15%, 98% 10%, 98% 86%, 61% 82%);
 transition:350ms;
 }
 .bucky:hover{
-  transform: scale(1.1)
+  transform: scale(1.1);
+  cursor: pointer;
 }
 button:focus{
     outline: none;   
@@ -880,4 +887,87 @@ color:white;
 }
 .container-fluid{
   padding:0px;
+}
+.joinIn{
+  position:absolute;
+  width:150px;
+  height:40px;
+  bottom:240px;
+  left:830px;
+  cursor:pointer;
+}
+.logIn{
+  position: absolute;
+  width:110px;
+  height:35px;
+  bottom:200px;
+  left:110px;
+  cursor: pointer;
+}
+.lel{
+  left:268px;
+}
+.register{
+  height:600px;
+  width:100%;
+}
+.label{
+  font-family: 'Montserrat', sans-serif;
+  color:#959595;
+  font-size:12px;
+}
+.register--Title{
+  background-color: #0282f9;
+  height:80px;
+  padding:20px;
+  padding-left:40px;
+}
+.register--Title h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.register--First{
+  height:90px;
+  width:100%;
+  padding:10px;
+  padding-left:20px;
+}
+.register--First input{
+  background-color: #212121;
+  border:0px;
+  border-bottom:1px solid #959595;
+  color:white;
+  padding-left:2px;
+}
+.register--First input::placeholder{
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+}
+.register--First input:focus{
+  border-bottom:2px solid #0282f9;
+}
+
+
+input:focus{
+  outline: none;
+}
+input:focus .label{
+  color:#0282f9;
+}
+.input1{
+  width:300px;
+}
+.undelete{
+  padding-left:40px;
+  margin-top:20px;
+}
+.form{
+  height:400px;
+  padding-left:40px;
+}
+.two-names{
+  width:50%
+}
+.two-names input{
+  width:95%;
 }
