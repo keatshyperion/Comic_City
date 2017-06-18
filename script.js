@@ -57,3 +57,18 @@ window.addEventListener('resize', function () {
     }
 
 })
+
+var getKadr = document.getElementsByClassName('cHook');
+var i = 0;
+
+var do_your_job = setInterval(function(){
+
+if(i == getKadr.length){
+    clearInterval(do_your_job);
+}
+
+getKadr[i].style.opacity=1;
+i++;
+
+
+},1050)
