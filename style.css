@@ -915,7 +915,7 @@ color:white;
   left:268px;
 }
 .register{
-  height:700px;
+  min-height:600px;
   width:100%;
 }
 .label{
@@ -969,7 +969,7 @@ input:focus .label{
   margin-top:20px;
 }
 .form{
-  height:700px;
+  min-height:500px;
   padding-left:40px;
 }
 .two-names{
@@ -1045,4 +1045,16 @@ transform:scale(1.1);
 background-color:#0282f9;
 color:white;
 cursor:pointer;
+}
+.register--description{
+  color:#0282f9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.register--description ul li{
+  list-style-type: none;
+  font-size:22px;
+}
+.register--title{
+  font-size:40px;
 }
