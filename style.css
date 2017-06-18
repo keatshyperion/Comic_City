@@ -85,7 +85,16 @@ background:#0282f9;
 
 /*nav end*/
 
+/*icons*/
 
+
+.socials:hover{
+transform:scale(1.1);
+
+}
+
+
+/*icons end*/
 .start{
   height:800px;
   width:100%;
