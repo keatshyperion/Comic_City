@@ -795,6 +795,13 @@ button:focus{
     min-height:650px;
   }
 }
+
+@media(max-width:568px){
+.footerino{
+text-align: center;
+}
+
+}
 .footer-bottom{
 
 padding-left:20px;
