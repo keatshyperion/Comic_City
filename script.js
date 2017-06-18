@@ -8,18 +8,18 @@ var done = false;
 $(window).scroll(function () {
 
 
-    if ($(window).scrollTop() < 200) {
+    if ($(window).scrollTop() < 200 && $(window).width() >= 980) {
         $(".nawigacja").finish();
         $(".nawigacja").fadeIn(0);
         $(".nawigacja").css('position', 'relative')
 
-    } else if ($(window).scrollTop() >= 200 && $(window).scrollTop() <= 599) {
+    } else if ($(window).scrollTop() >= 200 && $(window).scrollTop() <= 599 && $(window).width() >= 980) {
 
         $(".nawigacja").fadeOut(300);
 
     }
     //ss
-    else if ($(window).scrollTop() >= 610) {
+    else if ($(window).scrollTop() >= 610 && $(window).width() >= 980) {
 
         // }
 
@@ -75,3 +75,11 @@ i++;
 
 
 },1050)
+
+
+$(document).ready(function(){
+     $('.navbar-toggle').bind( "touchstart", function(e){
+         e.preventDefault();
+         $('.navbar-collapse').collapse('toggle');
+    });
+});
