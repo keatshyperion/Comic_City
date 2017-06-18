@@ -20,9 +20,10 @@ body{
 
 /*nawigacja*/
 .nawigacja{
-  width:100%;
+  width:100% !important;
   background-color: white;
   z-index: 1000;
+left:0px;
 }
 .navbar{
 color:black;
@@ -84,7 +85,16 @@ background:#0282f9;
 
 /*nav end*/
 
+/*icons*/
 
+
+i:hover{
+transform:scale(1.1);
+transition:500ms;
+}
+
+
+/*icons end*/
 .start{
   height:800px;
   width:100%;
