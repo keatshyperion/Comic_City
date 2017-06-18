@@ -1059,7 +1059,7 @@ cursor:pointer;
   font-size:40px;
 }
 .logInside{
-  height:500px;
+  min-height:500px;
   width:100%;
 }
 .oneHundert{
@@ -1074,4 +1074,37 @@ cursor:pointer;
   font-size:50px;
   line-height: 35px;
   border-right:1px solid #959595;
+}
+.login-form{
+  height:60%;
+  width:60%;
+  color:#0282f9;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size:50px;
+}
+.login-form form{
+  width:300px;
+}
+.finally{
+  height: 40px;
+  width:120px;
+  margin-top:10px;
+  background-color: black;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border:2px solid #0282f9;
+  font-size:14px;
+  margin-top:30px;
+}
+.finally:hover{
+  transition:0.5s;
+transform:scale(1.1);
+background-color:#0282f9;
+color:white;
+cursor:pointer;
+}
+.h40{
+  height:40px;
 }
