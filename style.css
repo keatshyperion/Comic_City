@@ -904,7 +904,7 @@ color:white;
   left:268px;
 }
 .register{
-  height:600px;
+  height:700px;
   width:100%;
 }
 .label{
@@ -958,7 +958,7 @@ input:focus .label{
   margin-top:20px;
 }
 .form{
-  height:400px;
+  height:700px;
   padding-left:40px;
 }
 .two-names{
@@ -966,4 +966,72 @@ input:focus .label{
 }
 .two-names input{
   width:95%;
+}
+.street{
+  width:100%;
+}
+input{
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+  text-transform: uppercase;
+}
+input::placeholder{
+  text-transform: capitalize;
+}
+.street input{
+  width:100%;
+}
+.doors{
+  width:33%;
+}
+.states input{
+  text-transform: capitalize;
+  width:100%;
+}
+.states select{
+  background-color: #212121;
+  border:0px;
+  border-bottom:1px solid #959595;
+  height:25px;
+  width:100%;
+  font-family: 'Montserrat', sans-serif;
+  font-size:14px;
+  color:white;
+}
+select:focus{
+  outline: none;
+}
+.tos{
+  height:100px;
+  overflow-y: scroll;
+  font-size:14px;
+  color:#959595;
+  padding:10px;
+  margin-bottom:20px;
+}
+.check{
+  padding-left: 20px;
+  font-family: 'Montserrat', sans-serif;
+  color:#959595;
+  font-size:14px;
+}
+.submitMe{
+  height:100px;
+}
+.submitMe button{
+  height: 40px;
+  width:120px;
+  margin-top:10px;
+  background-color: black;
+  color:white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  border:2px solid #0282f9;
+}
+.submitMe button:hover{
+transition:0.5s;
+transform:scale(1.1);
+background-color:#0282f9;
+color:white;
+cursor:pointer;
 }
