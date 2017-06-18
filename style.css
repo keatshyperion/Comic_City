@@ -1216,3 +1216,7 @@ top:39%;
 top:50%;
 text-align:center;
 }
+
+.register--description ul li{
+  list-style-type:disc;
+}
