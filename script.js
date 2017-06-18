@@ -2,7 +2,9 @@ var done = false;
 
 
 
-
+document.onload = (function(){
+  $(".nawigacja").css('opacity','1');
+})()
 $(window).scroll(function () {
 
 
