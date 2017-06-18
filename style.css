@@ -85,11 +85,20 @@ background:#0282f9;
 
 
 .start{
-  height:100vh;
+  height:800px;
   width:100%;
   background-image: url(basin_city.jpg);
   background-size: cover;
+  background-attachment: fixed;
+  margin:0px;
+  padding:0px;
+  overflow: hidden;
 
+}
+.overlay{
+  height:800px;
+  width:auto;
+  overflow: hidden;
 }
 .idea{
   text-align:center;
@@ -846,4 +855,7 @@ button:focus{
 }
 .icon-youtube-play:hover{
   color:#e52d27;
+}
+.container-fluid{
+  padding:0px;
 }
