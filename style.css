@@ -4,6 +4,9 @@ body{
   overflow-x: hidden;
   font-family: 'Quicksand', sans-serif;
 }
+*:focus {
+    outline: none;
+}
 /**{
   border:1px solid white;
 }*/
@@ -899,4 +902,68 @@ color:white;
 }
 .lel{
   left:268px;
+}
+.register{
+  height:600px;
+  width:100%;
+}
+.label{
+  font-family: 'Montserrat', sans-serif;
+  color:#959595;
+  font-size:12px;
+}
+.register--Title{
+  background-color: #0282f9;
+  height:80px;
+  padding:20px;
+  padding-left:40px;
+}
+.register--Title h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+.register--First{
+  height:90px;
+  width:100%;
+  padding:10px;
+  padding-left:20px;
+}
+.register--First input{
+  background-color: #212121;
+  border:0px;
+  border-bottom:1px solid #959595;
+  color:white;
+  padding-left:2px;
+}
+.register--First input::placeholder{
+  font-family: 'Montserrat', sans-serif;
+  font-size:12px;
+}
+.register--First input:focus{
+  border-bottom:2px solid #0282f9;
+}
+
+
+input:focus{
+  outline: none;
+}
+input:focus .label{
+  color:#0282f9;
+}
+.input1{
+  width:300px;
+}
+.undelete{
+  padding-left:40px;
+  margin-top:20px;
+}
+.form{
+  height:400px;
+  padding-left:40px;
+}
+.two-names{
+  width:50%
+}
+.two-names input{
+  width:95%;
 }
