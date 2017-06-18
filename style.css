@@ -188,6 +188,8 @@ transition:500ms;
     cursor: pointer;
     padding:0;
     margin:0px;
+    justify-content: center;
+    align-items:center;
 }
 
 .child {
@@ -1200,4 +1202,17 @@ cursor:pointer;
 }
 .h40{
   height:40px;
+}
+
+.text-on-img{
+  position:absolute;
+top:39%;
+  font-weight:bold;
+  border-bottom:1px solid #0282f9;
+  
+}
+.text-img-desc{
+  position:absolute;
+top:50%;
+text-align:center;
 }
