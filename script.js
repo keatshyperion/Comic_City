@@ -49,14 +49,15 @@ getHamburger = document.getElementsByClassName('hamburger');
 
 getHamburger[0].addEventListener('click', function () {
     this.classList.toggle('is-active');
+    
 
 })
 
 window.addEventListener('resize', function () {
 
-    if (window.innerWidth > 980) {
+  
         getHamburger[0].classList.remove('is-active');
-    }
+    
 
 })
 

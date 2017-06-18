@@ -26,7 +26,7 @@ body{
   width:100% !important;
   background-color: white;
   z-index: 1000;
-  height:55px ;
+ 
 left:0px;
 padding-right:40px;
 padding-right:40px;
@@ -50,6 +50,12 @@ width:100%;
   border-left:1px solid #e6eaea;
 
 }
+
+@media(max-width:980px){
+  .nav-link{
+    border:0px;
+  }
+}
 .nav-link:hover{
   color:#0282f9 !important;
   background-color:#223A5E;
@@ -62,6 +68,7 @@ margin-left:auto;
 
 .hamburger{
   margin:auto !important;
+  background-color:black;
 }
 
 @media(max-width:980px){
