@@ -687,12 +687,23 @@ color:#0282f9;
   font-family: 'Montserrat', sans-serif;
 }
 .coverBig{
-    width:100%;
+    width:250px;
   height:70%;
   margin-bottom:20px;
+
   transition:margin-bottom 350ms;
   cursor:pointer;
 }
+.coverBig:hover{
+ 
+      opacity:0.8;
+      transition:500ms;
+}
+.coverBig img{
+width:100%;
+height:100%;
+}
+
 .shop--Big--Item:hover .coverBig{
   margin-bottom: 40px;
 }
@@ -700,12 +711,13 @@ color:#0282f9;
   color:#0282f9;
 }
 .shop--Big--Item:hover .coverBig{
-  filter:opacity(0.8)
+  filter:opacity(0.8);
+      box-shadow: inset 0 0 0 25px #53a7ea;
 }
 .shopping{
   height:100%;
   width:300px;
-  margin-left:50px;
+align-items:center;
   flex-direction: column;
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
@@ -714,6 +726,7 @@ color:#0282f9;
 .the{
   font-size:62px;
   margin-bottom:-30px;
+  display:flex;
 }
 .shopText{
   font-size:82px;
