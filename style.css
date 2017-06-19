@@ -10,8 +10,8 @@ body {
 }
 
 
-/**{
-  border:1px solid white;
+/** {
+    border: 1px solid white;
 }*/
 
 @font-face {
@@ -1391,4 +1391,19 @@ hr {
 .navbar {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.ourOffer {
+    height: 500px;
+}
+
+.offer--item {
+    padding: 20px;
+}
+
+.offer--item h1 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #0282f9;
 }
