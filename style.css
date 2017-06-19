@@ -1,3 +1,5 @@
+
+
 body {
     background-color: #212121;
     color: #f5f5f5;
@@ -939,7 +941,7 @@ button:focus {
 
 @media(max-width:568px) {
     .footerino {
-        text-align: center;
+        text-align: left;
     }
 }
 
@@ -1298,6 +1300,34 @@ article {
     text-align: right;
     font-weight: bold;
 }
+.author__img{
+    border-radius:50%;
+    width:100px;
+    height:100px;
+}
+.author__img:hover{
+    transition:1s;
+    transform:scale(10);
+}
+.author__name{
+    font-weight:bold;
+    text-align:center;
+}
+.author__box{
+    margin-bottom:2rem;
+    border-top:1px solid white;
+    border-bottom:1px solid white;
+    padding-top:6px;
+    padding-bottom:6px;
+}
+.author-info{
+    display:flex;
+    flex-flow:row wrap;
+    justify-content: center;
+}
+.author__desc{
+    text-align:center;
+}
 
 hr {
     width: 100%;
@@ -1311,7 +1341,7 @@ hr {
 }
 
 
-/*article end*/
+/*ARTICLE END*/
 
 .logInside {
     min-height: 500px;
