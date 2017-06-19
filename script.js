@@ -27,7 +27,7 @@ $(window).scroll(function () {
 
         $(".nawigacja").fadeIn(300);
         $(".nawigacja").css('position', 'fixed');
-       $(".nawigacja").css('position', 'fixed');
+      
 
     }
 
