@@ -1403,11 +1403,13 @@ hr {
 }
 
 .offer--item {
-    padding: 20px;
+    padding: 40px;
+    justify-content: center;
 }
 
 .offer--item p {
     text-indent: 5%;
+    text-align: center;
 }
 
 .offer--item h1 {
@@ -1416,4 +1418,13 @@ hr {
     text-align: center;
     color: #0282f9;
     margin-bottom: 20px;
+}
+
+.comics {
+    text-align: center;
+    font-weight: 700;
+}
+
+.comics2 {
+    text-align: center;
 }
