@@ -12,8 +12,8 @@ body {
 }
 
 
-/**{
-  border:1px solid white;
+/** {
+    border: 1px solid white;
 }*/
 
 @font-face {
@@ -1421,4 +1421,40 @@ hr {
 .navbar {
     padding-left: 5%;
     padding-right: 5%;
+}
+
+.ourOffer {
+    height: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+
+.offer--item {
+    padding: 40px;
+    justify-content: center;
+}
+
+.offer--item p {
+    text-indent: 5%;
+    text-align: center;
+}
+
+.offer--item h1 {
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #0282f9;
+    margin-bottom: 20px;
+}
+
+.comics {
+    text-align: center;
+    font-weight: 700;
+}
+
+.comics2 {
+    text-align: center;
 }
