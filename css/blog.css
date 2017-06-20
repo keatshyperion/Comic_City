@@ -1,0 +1,237 @@
+ /**{
+     border:1px solid white;
+ }*/
+ .articles{
+     min-height: 100vh;
+     padding:20px;
+     padding:0px;
+ }
+ .sidekick{
+     min-height:100vh;
+     background-color: #0282f9;
+     padding-right:5%;
+ }
+ .hot--story{
+     height:300px;
+ }
+ .blog--text{
+     font-size:60px;
+ }
+ .artykuly{
+     margin-left:5%;
+     margin-right:5%;
+ }
+ .single--post{
+     height:220px;
+     margin-top:20px;
+     padding:10px;
+     display: flex;
+     flex-wrap: wrap;
+     border-top:2px solid #0282f9;
+     transition: height 400ms;
+ }
+ .hot--art{
+     min-height:400px;
+ }
+ .obrazek{
+     height:150px;
+     width:150px;
+     margin-right:10px;
+     transition: 400ms;
+ }
+ .obrazek img{
+     border-radius:50%;
+ }
+ .obrazek:hover{
+     transform: scale(1.1);
+ }
+ .actual--article{
+     width:80%;
+     height:100%;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ .button--wrapper{
+     height:40px;
+ }
+ .thee{
+     margin-bottom:-50px;
+ }
+ .date{
+     margin-left:0px;
+     font-family: 'Montserrat', sans-serif;
+     font-size:14px;
+     color:#959595;
+     width:100%;
+     height:18px;
+ }
+ .article--title{
+     width:100%;
+     height:20px;
+     font-family: 'Montserrat', sans-serif;
+     font-size:24px;
+     font-weight: 700;
+     color:#0282f9;
+     margin-bottom:5px;
+ }
+ .article--content{
+     height:60%;
+     width:100%;
+     font-family: 'Montserrat', sans-serif;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ }
+ .article--content p{
+     text-indent: 5%;
+ }
+ .expand{
+     height: auto;
+     transition: 400ms;
+ }
+ .read--moar{
+     height:40px;
+     width:150px;
+     font-size:14px;
+     font-weight: 700;
+     font-family: 'Montserrat', sans-serif;
+     background-color:black;
+     color:white;
+     border:2px solid #0282f9;
+     transition:400ms;
+ }
+ .read--moar:hover{
+    transform: scale(1.1);
+    background-color: #0282f9;
+    cursor: pointer;
+ }
+ .article--autor{
+     height:150px;
+     border-top:1px solid #959595;
+     border-bottom:1px solid #959595;
+     padding:20px;
+     padding-left:120px;
+ }
+ .autor{
+     height:100px;
+     width:100px;
+     border-radius: 50%;
+     transition:400ms;
+     background-image: url(../lastest_Posts/black--panther.png);
+     position: relative;
+     margin-right:20px;
+ }
+ .autor:hover{
+     transform: scale(1.2);
+     cursor: pointer;
+     filter:brightness(0.5);
+ }
+ .autor--name{
+     position: absolute;
+     top:35%;
+     left:15%;
+     display: none;
+     font-family: 'Montserrat', sans-serif;
+     font-size:14px;
+     font-weight: 700;
+     color:#0282f9;
+     
+ }
+ .autor:hover .autor--name{
+     display:block;
+ }
+ .share{
+     height:80px;
+     padding-bottom:20px;
+     margin-bottom:20px;
+ }
+ .share--title{
+     height:40px;
+     font-family: 'Montserrat', sans-serif;
+     font-size:20px;
+     font-weight: 700;
+     width:100%;
+     margin:0;
+     display: flex;
+     justify-content: center;
+     margin-top:20px;
+ }
+ .share--button i{
+     cursor: pointer;
+ }
+ ul {
+    list-style-image: url('../pic/keyboard-right-arrow-button.png');
+    font-family: 'Montserrat', sans-serif;
+     font-size:14px;
+     font-weight: 500;
+     line-height: 30px;
+}
+ul li a{
+    color:white;
+    text-decoration: none;
+    margin-bottom:5px;
+}
+ul li a:hover{
+    color:white;
+    text-decoration: none;
+}
+.last--comments{
+    margin-top:40px;
+}
+.categories{
+    width:100%;
+}
+option{
+    font-family: 'Montserrat', sans-serif;
+     font-size:14px;
+     font-weight: 500;
+}
+.t1{
+    height:40px;
+    margin:0;
+    margin-top:10px;
+}
+.tag--item{
+    margin-right:10px;
+    font-family: 'Montserrat', sans-serif;
+     font-size:12px;
+     font-weight: 500;
+     padding:0px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: 400ms;
+}
+.tag--item:hover{
+    background-color:#223A5E;
+    cursor: pointer;
+}
+select{
+    border:0px;
+    background-color: #0282f9;
+     font-family: 'Montserrat', sans-serif;
+     font-size:18px;
+     font-weight: 500;
+     color:white;
+}
+.tags{
+    margin-bottom:40px;
+}
+.article--image{
+    width:100%;
+    height:200px;
+    background-image: url(../lastest_Posts/wf6smPw.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position:center;
+}
+.article--final{
+    padding:50px;
+}
+.article--final p{
+    text-indent: 5%;
+    font-family: 'Montserrat', sans-serif;
+     font-size:18px;
+}
+.register--Title{
+    min-height:80px;
+}

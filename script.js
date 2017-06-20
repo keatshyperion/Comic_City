@@ -83,3 +83,11 @@ $(document).ready(function(){
          $('.navbar-collapse').collapse('toggle');
     });
 });
+
+// // BLOOOOOGG START
+// $(document).ready(function(){
+//     $(".read--moar").click(function(){
+//         $(".single--post").toggleClass("expand");
+//     });
+// });
+// // BLOOOOOGG END
